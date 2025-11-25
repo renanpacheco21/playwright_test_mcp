@@ -107,25 +107,11 @@ O teste foi estruturado seguindo o padrão Page Object Model (POM) para:
 - A arquitetura POM facilita a manutenção e atualização dos testes
 - Os dados de teste (produtos, mensagens, seletores) estão centralizados em arquivos de constantes e fixtures
 
-## 🔧 Configuração
-
-### Playwright Config
-O arquivo `playwright.config.ts` contém as configurações do Playwright, incluindo:
-- Navegadores configurados (Chromium por padrão)
-- Configurações de retry
-- Configurações de trace e screenshots
-- Diretório de testes: `./tests`
-
-### Configurações de Ambiente
-O arquivo `config.env.json` contém:
-- URL base do site
-- Timeouts configuráveis (short, medium, long, veryLong)
-- Configurações de busca (ex: maxProducts)
 
 ## 📊 Resultado Esperado
 
 Ao executar os testes, você deve ver:
-- ✅ Teste passando com sucesso
+- Teste passando com sucesso
 - Console logs mostrando o produto identificado
 - Navegação para a página do produto
 - Validação dos elementos da página
