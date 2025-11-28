@@ -81,18 +81,7 @@ npx playwright show-report
 └── README.md                    # Este arquivo
 ```
 
-## 🧪 Testes Implementados
-
-### Teste: Buscar iPhone 17 Pro Max com cor "laranja-cósmico"
-- Acessa o site da Magazine Luiza
-- Fecha o banner de cookies (se existir)
-- Busca por "Iphone 17 pro max" no campo de busca
-- Encontra o primeiro produto que contenha "laranja-cósmico" na descrição
-- Clica no produto encontrado
-- Valida os elementos da página do produto (título, preço, botão de adicionar à sacola)
-
-
-### Arquitetura aplicada:
+## 🧪 Arquitetura aplicada:
 
 O teste foi estruturado seguindo o padrão Page Object Model (POM) para:
 - **Manutenibilidade**: Facilita atualizações quando a estrutura do site mudar
