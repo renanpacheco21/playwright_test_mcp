@@ -5,7 +5,7 @@ export const MESSAGES = {
   // Mensagens de sucesso
   SEARCH_FIELD_FOUND: '✅ Campo de busca encontrado',
   SEARCH_PERFORMED: '🔍 Busca realizada:',
-  PRODUCT_FOUND: '✅ Produto com "laranja-cósmico" encontrado:',
+  PRODUCT_FOUND: '✅ Produto com "Azul-intenso" encontrado:',
   PRODUCT_URL: '🔗 URL do produto:',
   NAVIGATION_COMPLETE: '✅ Navegação para página do produto concluída',
   PRODUCT_TITLE: '📱 Título do produto na página:',
@@ -16,7 +16,7 @@ export const MESSAGES = {
   // Mensagens de erro
   COOKIES_BANNER_NOT_FOUND: 'Banner de cookies não encontrado ou já fechado',
   SEARCH_FIELD_NOT_FOUND: 'Campo de busca não encontrado',
-  PRODUCT_NOT_FOUND: 'Nenhum produto com "laranja-cósmico" na descrição foi encontrado',
+  PRODUCT_NOT_FOUND: 'Nenhum produto com "Azul-intenso" na descrição foi encontrado',
   PAGE_CLOSED_WARNING: '⚠️ Página foi fechada durante waitForLoadState, mas navegação foi concluída',
   
   // Resumo

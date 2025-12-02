@@ -4,7 +4,7 @@
 export const PRODUCTS = {
   IPHONE_17_PRO_MAX: {
     searchTerm: 'Iphone 17 pro max',
-    colorFilter: 'laranja-cósmico',
+    colorFilter: 'Azul-intenso',
   },
 } as const;
 

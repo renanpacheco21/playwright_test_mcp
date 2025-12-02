@@ -8,7 +8,7 @@ O desenvolvimento e depuração dos testes foram realizados no Cursor IDE, aprov
 
 ### Prompt utilizado para criação do teste:
 
-Acesse o site https://www.magazineluiza.com.br/, no campo "buscar no magalu" procure o produto Iphone 17 Pro Max, e acesse o primeiro produto na lista de resultados que tenha o termo "laranja-cósmico" na sua descrição, e por fim gerar automação de testes destas ações em playwright.
+Acesse o site https://www.magazineluiza.com.br/, no campo "buscar no magalu" procure o produto Iphone 17 Pro Max, e acesse o primeiro produto na lista de resultados que tenha o termo "Azul-intenso" na sua descrição, e por fim gerar automação de testes destas ações em playwright.
 
 
 ## 🚀 Como executar

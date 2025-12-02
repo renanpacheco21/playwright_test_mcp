@@ -6,7 +6,7 @@ import { PRODUCTS } from '../fixtures/products';
 import { MESSAGES } from '../constants/messages';
 
 test.describe('Magazine Luiza - Buscar iPhone 17 Pro Max', () => {
-  test('deve buscar iPhone 17 Pro Max e acessar produto com "laranja-cósmico"', async ({ page }) => {
+  test('deve buscar iPhone 17 Pro Max e acessar produto com "Azul-intenso"', async ({ page }) => {
     const homePage = new HomePage(page);
     const searchPage = new SearchPage(page);
     const productPage = new ProductPage(page);
@@ -27,8 +27,8 @@ test.describe('Magazine Luiza - Buscar iPhone 17 Pro Max', () => {
       await homePage.search(PRODUCTS.IPHONE_17_PRO_MAX.searchTerm);
     });
 
-    // 4. Aguardar resultados e encontrar produto com "laranja-cósmico"
-    await test.step('Encontrar produto com "laranja-cósmico" na descrição', async () => {
+    // 4. Aguardar resultados e encontrar produto com "Azul-intenso"
+    await test.step('Encontrar produto com "Azul-intenso" na descrição', async () => {
       await searchPage.waitForResults();
       
       const result = await searchPage.findProductByDescription(PRODUCTS.IPHONE_17_PRO_MAX.colorFilter);
@@ -40,7 +40,7 @@ test.describe('Magazine Luiza - Buscar iPhone 17 Pro Max', () => {
       produtoSelecionadoNome = result.name;
 
       // 5. Clicar no produto encontrado
-      await test.step('Clicar no produto com "laranja-cósmico"', async () => {
+      await test.step('Clicar no produto com "Azul-intenso"', async () => {
         await searchPage.clickProduct(result.product);
       });
     });
